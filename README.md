@@ -1,8 +1,10 @@
-# React Routing Example
+# Food App
 
-A simple react routing exercise
+A react routing exercise as a simple food app
 
 ## Objectives
+
+- Learn how to use React Router
 
 ## Requirements
 
