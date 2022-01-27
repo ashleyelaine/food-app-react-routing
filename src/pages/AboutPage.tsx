@@ -6,8 +6,8 @@ const AboutPage = () => {
     <div>
       <h1>About</h1>
       <MainNav />
-      <p>Some fun interesting information about this food app.</p>
-      <img style={{maxWidth: "300px", padding: "30px"}} alt="donut" src="/food/donut.png" />
+      <p>Some fun interesting information about this food app. I bet you want a donut now.</p>
+      <img alt="donut" src="/food/donut.png" />
     </div>
   )
 }

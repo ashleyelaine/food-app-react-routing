@@ -38,7 +38,7 @@ let foods = [
   {
     id: "7",
     name: "chicken",
-    type: "protein",
+    type: "meat",
     image: "/food/chicken.png"
   },
   {

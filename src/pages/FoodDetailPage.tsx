@@ -21,9 +21,9 @@ export default function FoodDetailPage() {
    });
 
   return (
-    <main style={{ padding: "1rem", marginLeft: "auto", marginRight: "auto", textAlign: "center" }}>
-      <h2 style={{paddingBottom: "10px"}}>{food?.name}</h2>
+    <main className="food-detail">
+      <h2>{food?.name}</h2>
       <h3><i>{food?.type }</i></h3>
-      <img style={{maxWidth: "300px", padding: "30px"}} alt={food?.name} src={food?.image } />
+      <img alt={food?.name} src={food?.image } />
     </main>
   )}

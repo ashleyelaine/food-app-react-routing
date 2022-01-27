@@ -22,8 +22,8 @@ render(
       <Route
         path="*"
         element={
-          <main style={{ padding: "1rem" }}>
-            <p>There's nothing here!</p>
+          <main>
+            <h1>There's nothing here!</h1>
           </main>
         }
       />

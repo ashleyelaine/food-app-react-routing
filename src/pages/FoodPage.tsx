@@ -8,28 +8,13 @@ export default function FoodPage() {
   return (
     <>
       <div>
-        <h1>About</h1>
+        <h1>Foodz</h1>
         <MainNav />
       </div>
-      <div style={{ display: "flex", justifyContent: "space-between" }}>
-        <nav
-          style={{
-            borderRight: "solid 3px #888",
-            padding: "1rem"
-          }}
-        >
+      <div className="food-page">
+        <nav>
           {foods.map(food => (
-            <NavLink
-            style={({ isActive }) => {
-              return {
-                display: "block",
-                margin: "1rem 0",
-                fontWeight: isActive ? "bold" : ""
-              };
-            }}
-              to={`/food/${food.id}`}
-              key={food.id}
-            >
+            <NavLink to={`/food/${food.id}`} key={food.id}>
               {food.name}
             </NavLink>
           ))}

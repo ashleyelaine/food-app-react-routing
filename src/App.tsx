@@ -7,7 +7,7 @@ export default function App() {
       <h1>Food App Home</h1>
       <MainNav />
       <p>Yum!</p>
-      <img style={{maxWidth: "300px", padding: "30px"}} alt="donut" src="/food/salad.png" />
+      <img alt="donut" src="/food/salad.png" />
     </div>
   );
 }

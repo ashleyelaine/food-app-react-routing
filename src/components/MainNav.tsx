@@ -2,21 +2,15 @@ import { NavLink } from 'react-router-dom'
 
 const MainNav = () => {
   return (
-    <div className="main-nav">
-      <nav
-        style={{
-          borderBottom: "solid 3px #888",
-          paddingBottom: "1rem",
-          marginBottom: "2rem"
-        }}
-      >
-        <NavLink style={({ isActive }) => {return {fontWeight: isActive ? "bold" : ""};}} to="/">
+    <div>
+      <nav className="main-nav">
+        <NavLink className="nav-link" to="/">
           Home
         </NavLink> |{" "}
-        <NavLink style={({ isActive }) => {return {fontWeight: isActive ? "bold" : ""};}} to="/about">
+        <NavLink className="nav-link" to="/about">
           About
         </NavLink> |{" "}
-        <NavLink style={({ isActive }) => {return {fontWeight: isActive ? "bold" : ""};}} to="/food">
+        <NavLink className="nav-link" to="/food">
           Food
         </NavLink>
       </nav>
